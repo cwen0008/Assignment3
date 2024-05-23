@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>FIT1050 Web Fundamentals - Assignment3</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/
+dist/fancybox/fancybox.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
+    <script></script>
+    <!-- ============================================ -->
+<!--                 Navigation and header                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="images/ICON.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link cs-active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Property
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Location
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="" class="cs-button-solid cs-nav-button">Contact Us</a>
+    </div>
+</header>
+                                
+    
+  </head>
+
+  <body>
+    <!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1785">
+    <div class="cs-container">
+        <div class="cs-content">
+            
+            <h1 class="cs-title">REDAN APARTMENT</h1>
+            <p class="cs-text">
+                The best choice for seaside resort hotels, providing you with the best service.
+            </p>
+            <div class="cs-button-group">
+                <a href="" class="cs-button-solid cs-button1">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <img loading="lazy" decoding="async" src="images/pexels-sevenstormphotography-439391.jpg" alt="field" width="1920" height="1200" aria-hidden="true">
+    </picture>
+
+</section>
+                                
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
+    <script src="script.js">
+    </script>
+
+<!-- ============================================ -->
+<!--                 Promotions                   -->
+<!-- ============================================ -->
+
+<section id="promotions-1567">
+    <div class="cs-container">
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="images/hotel.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="images/hotel.jpg">
+                    <img loading="lazy" decoding="async" src="images/hotel.jpg" alt="room" width="630" height="354">
+                </picture>
+                <div class="cs-content">
+                    <span class="cs-tag">REDAN APARTMENT</span>
+                    <h2 class="cs-h2">Register To Get an Extra 20% off</h2>
+                    <a href="" class="cs-button-solid">Register Now</a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="images/hotel1.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="images/hotel1.jpg">
+                    <img loading="lazy" decoding="async" src="images/hotel1.jpg" alt="room" width="630" height="354">
+                </picture>
+                <div class="cs-content">
+                    <span class="cs-tag">REDAN APARTMENT</span>
+                    <h2 class="cs-h2">25% Off - For Long Stay</h2>
+                    <a href="" class="cs-button-solid">Book Now</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+                
+<!-- ============================================ -->
+<!--       Side By Side (about us)                -->
+<!-- ============================================ -->
+
+<section id="sbs-75">
+    <div class="cs-container">
+        <div class="cs-wrapper">
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="images/beach.jpg">
+                <source media="(min-width: 601px)" srcset="images/beach.jpg">
+                <img loading="lazy" decoding="async" src="images/beach.jpg" alt="body builder" width="500" height="552" aria-hidden="true">
+            </picture>
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">About us</span>
+            <h2 class="cs-title">REDAN APARTMENT</h2>
+            <p class="cs-text">
+                Located on a quiet tree lined street in East St Kilda,  Redan Apartments is just a short tram ride away from the popular St Kilda beach and cafes, restaurants and boutique shopping that makes St Kilda a sought after location.
+Alternatively, the cosmopolitan restaurants and shopping of Chapel Street and Toorak Road, as well as Richmond, Prahran and South Eastern suburbs are all close by. REDAN Apartments provides clean and comfortable accommodation, budget prices, with its 30 studio apartments all featuring kitchenette facilities.
+Tram and train services are within easy walking distance and complimentary secure off street parking, guest laundry and BBQ area is provided for all guests. REDAN Apartments- for the discerning budget conscious traveller.
+
+
+            </p>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a>
+        </div>
+    </div>
+</section>
+                                
+
+<!-- ============================================ -->
+<!--                   Pricing                    -->
+<!-- ============================================ -->
+
+<section id="pricing-1518">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-topper">Rooms</h1>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-flex">
+                    <span class="cs-desc">Studio Apartment</span>
+                    <h3 class="cs-h3">Starting From $79</h3>
+                    <svg class="cs-mask" id="Layer_2-1518" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 371.1 166.7"><g id="Layer_1-2-1518"><path stroke="var(--maskBorder)" d="m12.82,19.67C2.01,56.2-7.54,129.35,28.82,159.67c1.42,1.2,2.98,1.42,5,2,2.02.58,4.85,1.18,7,1,98.77-7.85,195.12-12.76,295-7,6.59.39,10.92-1.66,14-6,5.48-7.78,9-16.68,11-27,6.1-30.94,12.55-63.62-2-95-8.96-19.27-30.85-24.93-57-25-108.29-.23-195.35.39-262,2-16.86.41-23.17,2.01-27,15Z"/><polygon fill="var(--maskBG)" points="20.59 9.8 62.59 5.55 255.62 4 322.31 4.17 345.42 13.95 355.8 24.33 365.37 47.45 367.1 58.74 367.1 86.58 362.94 109.29 353.7 143.84 344.08 154.33 335.4 155.73 281.72 153.62 161.51 155.73 67.65 160.68 35.09 162.7 20.59 150.1 7.32 123.07 3.05 90.27 7.13 50.18 20.59 9.8"/><path stroke="var(--maskBorder)" stroke-width="8px" fill="none" d="m13.73,20.9C2.97,57.11-6.54,129.63,29.67,159.69c1.42,1.19,2.97,1.41,4.98,1.98,2.01.57,4.83,1.17,6.97.99,98.36-7.78,194.32-12.65,293.78-6.94,6.56.38,10.87-1.64,13.94-5.95,5.46-7.71,8.96-16.53,10.95-26.77,6.07-30.67,12.5-63.07-1.99-94.18-8.92-19.1-30.72-24.72-56.76-24.78-107.84-.23-194.55.38-260.92,1.98-16.79.41-23.07,1.99-26.89,14.87Z"/></g></svg>
+                </div>
+                <!--Put in a wrapper div so we can add the card styles here and let the top cs-flex group rest on top of it and use a negative margin to make it overlap -->
+                <div class="cs-wrapper">
+                    <ul class="cs-ul">
+                        <li class="cs-li">
+                            Queen Size Bad *1 
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                        <li class="cs-li">
+                            Free WIFI
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                        <li class="cs-li">
+                            Bathroom and Ensuite
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                        <li class="cs-li">
+                            AM/FM radio
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                        <li class="cs-li ">
+                            Refrigerator
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                        <li class="cs-li ">
+                            Desk
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                    </ul>
+                    <div class="cs-info">
+                        <span class="cs-price">
+                            $99 <span class="cs-duration">/Day</span>
+                        </span>
+                        <a href="" class="cs-button-solid">Book Now</a>
+                    </div>
+                    <svg class="cs-blob" width="273" height="136" viewBox="0 0 273 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M255.232 8.51748C307.391 -27.6114 340.366 67.0792 304.261 114.801C204.089 247.201 72.0026 208.615 16.9974 154.545C-38.0078 100.476 54.1202 43.9093 140.688 70.8035C227.255 97.6976 203.073 44.6464 255.232 8.51748Z" fill="var(--secondary)"/>
+                    </svg>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-flex">
+                    <span class="cs-desc">Twin room studio</span>
+                    <h3 class="cs-h3">Starting From $79</h3>
+                    <svg class="cs-mask" id="Layer_2-1518" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 371.1 166.7"><g id="Layer_1-2-1518"><path stroke="var(--maskBorder)" d="m12.82,19.67C2.01,56.2-7.54,129.35,28.82,159.67c1.42,1.2,2.98,1.42,5,2,2.02.58,4.85,1.18,7,1,98.77-7.85,195.12-12.76,295-7,6.59.39,10.92-1.66,14-6,5.48-7.78,9-16.68,11-27,6.1-30.94,12.55-63.62-2-95-8.96-19.27-30.85-24.93-57-25-108.29-.23-195.35.39-262,2-16.86.41-23.17,2.01-27,15Z"/><polygon fill="var(--maskBG)" points="20.59 9.8 62.59 5.55 255.62 4 322.31 4.17 345.42 13.95 355.8 24.33 365.37 47.45 367.1 58.74 367.1 86.58 362.94 109.29 353.7 143.84 344.08 154.33 335.4 155.73 281.72 153.62 161.51 155.73 67.65 160.68 35.09 162.7 20.59 150.1 7.32 123.07 3.05 90.27 7.13 50.18 20.59 9.8"/><path stroke="var(--maskBorder)" stroke-width="8px" fill="none" d="m13.73,20.9C2.97,57.11-6.54,129.63,29.67,159.69c1.42,1.19,2.97,1.41,4.98,1.98,2.01.57,4.83,1.17,6.97.99,98.36-7.78,194.32-12.65,293.78-6.94,6.56.38,10.87-1.64,13.94-5.95,5.46-7.71,8.96-16.53,10.95-26.77,6.07-30.67,12.5-63.07-1.99-94.18-8.92-19.1-30.72-24.72-56.76-24.78-107.84-.23-194.55.38-260.92,1.98-16.79.41-23.07,1.99-26.89,14.87Z"/></g></svg>
+                </div>
+                <!--Put in a wrapper div so we can add the card styles here and let the top cs-flex group rest on top of it and use a negative margin to make it overlap -->
+                <div class="cs-wrapper">
+                    <ul class="cs-ul">
+                        <li class="cs-li">
+                            Single Size Bed *2
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                        <li class="cs-li">
+                            WIFI
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                        <li class="cs-li">
+                            Bathroom and Ensuite
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                        <li class="cs-li">
+                            AM/FM radio
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                        <li class="cs-li ">
+                            Refrigerator
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                        <li class="cs-li">
+                            Desk
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                    </ul>
+                    <div class="cs-info">
+                        <span class="cs-price">
+                            $99 <span class="cs-duration">/Day</span>
+                        </span>
+                        <a href="" class="cs-button-solid">Book Now</a>
+                    </div>
+                    <svg class="cs-blob" width="273" height="136" viewBox="0 0 273 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M255.232 8.51748C307.391 -27.6114 340.366 67.0792 304.261 114.801C204.089 247.201 72.0026 208.615 16.9974 154.545C-38.0078 100.476 54.1202 43.9093 140.688 70.8035C227.255 97.6976 203.073 44.6464 255.232 8.51748Z" fill="var(--secondary)"/>
+                    </svg>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-flex">
+                    <span class="cs-desc">Deluxe room</span>
+                    <h3 class="cs-h3">Starting From $119</h3>
+                    <svg class="cs-mask" id="Layer_2-1518" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 371.1 166.7"><g id="Layer_1-2-1518"><path stroke="var(--maskBorder)" d="m12.82,19.67C2.01,56.2-7.54,129.35,28.82,159.67c1.42,1.2,2.98,1.42,5,2,2.02.58,4.85,1.18,7,1,98.77-7.85,195.12-12.76,295-7,6.59.39,10.92-1.66,14-6,5.48-7.78,9-16.68,11-27,6.1-30.94,12.55-63.62-2-95-8.96-19.27-30.85-24.93-57-25-108.29-.23-195.35.39-262,2-16.86.41-23.17,2.01-27,15Z"/><polygon fill="var(--maskBG)" points="20.59 9.8 62.59 5.55 255.62 4 322.31 4.17 345.42 13.95 355.8 24.33 365.37 47.45 367.1 58.74 367.1 86.58 362.94 109.29 353.7 143.84 344.08 154.33 335.4 155.73 281.72 153.62 161.51 155.73 67.65 160.68 35.09 162.7 20.59 150.1 7.32 123.07 3.05 90.27 7.13 50.18 20.59 9.8"/><path stroke="var(--maskBorder)" stroke-width="8px" fill="none" d="m13.73,20.9C2.97,57.11-6.54,129.63,29.67,159.69c1.42,1.19,2.97,1.41,4.98,1.98,2.01.57,4.83,1.17,6.97.99,98.36-7.78,194.32-12.65,293.78-6.94,6.56.38,10.87-1.64,13.94-5.95,5.46-7.71,8.96-16.53,10.95-26.77,6.07-30.67,12.5-63.07-1.99-94.18-8.92-19.1-30.72-24.72-56.76-24.78-107.84-.23-194.55.38-260.92,1.98-16.79.41-23.07,1.99-26.89,14.87Z"/></g></svg>
+                </div>
+                <!--Put in a wrapper div so we can add the card styles here and let the top cs-flex group rest on top of it and use a negative margin to make it overlap -->
+                <div class="cs-wrapper">
+                    <ul class="cs-ul">
+                        <li class="cs-li">
+                            King Size Bed *1
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                        <li class="cs-li">
+                            WIFI
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                        <li class="cs-li">
+                            Free Lunch
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                        <li class="cs-li">
+                            Big Bathroom and Brand Ensuite
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                        <li class="cs-li">
+                            TV
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                        <li class="cs-li">
+                            Air Conditioner
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/green-check.svg" alt="checkmark" width="24" height="24">
+                        </li>
+                    </ul>
+                    <div class="cs-info">
+                        <span class="cs-price">
+                            $139 <span class="cs-duration">/Day</span>
+                        </span>
+                        <a href="" class="cs-button-solid">Book Now</a>
+                    </div>
+                    <svg class="cs-blob" width="273" height="136" viewBox="0 0 273 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M255.232 8.51748C307.391 -27.6114 340.366 67.0792 304.261 114.801C204.089 247.201 72.0026 208.615 16.9974 154.545C-38.0078 100.476 54.1202 43.9093 140.688 70.8035C227.255 97.6976 203.073 44.6464 255.232 8.51748Z" fill="var(--secondary)"/>
+                    </svg>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+</section>
+                                                          
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="RPsbs-248">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <div class="cs-content">
+            <h1>
+                REDAN APARTMENTS ACCOMMODATION
+            </h1>            
+        </div>
+        <!-- Right Content Section-->
+        <div class="cs-content">
+            <p class="cs-text">
+                Redan Apartments is a quality alternative to traditional accommodations, offering guests value for money in a peaceful location.
+Each apartment is fully furnished complete with a kitchenette.  The cooking facilities include 2 hot plates and a microwave, ideal for cooking a simple meal or a snack on the run.
+The Studio Apartments are generous in size and provide a comfortable space to relax and unwind.
+A number of the Studio Apartments interconnect to provide an ideal solution for families, sporting groups or couples travelling together.
+
+            </p>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="">Learn More</a>
+        </div>
+    </div>
+</section>
+
+                                
+
+<!-- ============================================ -->
+<!--                  Footer                      -->
+<!-- ============================================ -->
+
+<footer id="footer-1147">
+    <div class="cs-container">
+        <div class="cs-top">
+            <a aria-label="go back to home" class="cs-logo" href="">
+                <img class="cs-logo-img" loading="lazy" decoding="async" src="images/ICON.png" alt="logo" width="168" height="48">
+            </a>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <a href="" class="cs-link">Home</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">About</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Services</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Donations</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Events</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Blog</a>
+                </li>
+                <li class="cs-li">
+                    <a href="" class="cs-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="cs-bottom">
+            <!--Social-->
+            <ul class="cs-social">
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="facebook" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook-white.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter-white.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="instagram" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram-transparent.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+                <li class="cs-social-li">
+                    <a href="" class="cs-social-link" aria-label="twitter" target="_blank" rel="noopener">
+                        <img class="cs-social-icon cs-default" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube-transparent2.svg" alt="icon" loading="lazy" decoding="async" width="12" height="12" aria-hidden="true">
+                    </a>
+                </li>
+            </ul>
+            <span class="cs-copyright">
+                © Copyright 2024 - <a href="" class="cs-copyright-link">Chenlongjie Weng</a>
+            </span>
+        </div>
+    </div>
+</footer>
+                                
+                                
+  </body>
+  
+</html>
